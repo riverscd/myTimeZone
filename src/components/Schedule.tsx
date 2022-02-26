@@ -33,7 +33,7 @@ export function Schedule() {
             <h2>Instructions</h2>
             <h3>- Today's Wake Up: Enter the time you woke up today</h3>
             <h3>- Simulated Wake Up: Enter the time you would like to feel like you woke up </h3>
-            <p>sample: set to 6am to simulate a 6am wakeup 
+            <p>sample: set to 6am to simulate a 6am wakeup
                 <br /> (set default options once figure out moment.js)
             </p>
 
@@ -67,9 +67,9 @@ export function Schedule() {
             <p>"real-feel" time: {realFeelTime}</p>
             <p>(use fix button for now if time is negative or 24+)</p>
             <button onClick={(e) => { adjustRealFeel() }}>Fix</button>
-        <br />
+            <br />
             <Link to="/"><button className="home-button">Home</button></Link>
-<br />
+            <br />
             <h2>* add ons to be figured out *</h2>
             <p>display hours asleep/hours awake breakdown</p>
             <p>potential alert for less than 6 hours w/ suggested nap times/strategies</p>
