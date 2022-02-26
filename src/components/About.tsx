@@ -4,7 +4,11 @@ export function About() {
 
     return (
         <div>
+           <div className="home-page-title">
+            <span className="material-icons-outlined">wb_sunny </span>
             <h1>About</h1>
+            <span className="material-icons-outlined">dark_mode</span>
+            </div>
             <h2>Being on a non-standard sleep schedule can be disorienting...
             </h2>
             <p>
@@ -21,13 +25,13 @@ export function About() {
             <p>make better sense of your day and find community
                 amongst others who feel out of sync with the world around them.
             </p>
-            <h2>Hope it helps!</h2>
+            <h3>Hope it helps!</h3>
             <p>If something isn't working for you, or you have an idea for
                 a feature that would help your unique situation - please reach out!
             </p>
             <p>(future contact link or whatever)</p>
 
-            <h2>Who might benefit from this tool?</h2>
+            <h3>Who might benefit from this tool?</h3>
             
             <p> Shift-workers, People with Sleep Disorders, Parents, Caregivers, Pilots, 
                 Flight Attendents, Frequent Travellers, College Students, Night Students,

@@ -4,7 +4,11 @@ export function Resources() {
 
     return (
         <div>
+            <div className="home-page-title">
+            <span className="material-icons-outlined">wb_sunny </span>
             <h1>Resources</h1>
+            <span className="material-icons-outlined">dark_mode</span>
+            </div>
             <h2>Learn More About Sleep</h2>
             <h3>"Fix" your schedule</h3>
             <p>Chronotherapy and Sleep Training</p>

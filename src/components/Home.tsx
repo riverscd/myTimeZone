@@ -5,8 +5,11 @@ export function Home() {
 
     return (
         <div>
+            <div className="home-page-title">
+            <span className="material-icons-outlined">wb_sunny </span>
             <h1>My Time Zone</h1>
-
+            <span className="material-icons-outlined">dark_mode</span>
+            </div>
 
             <h2>Atypical schedule?</h2>
             <h3>Make it make sense.</h3>

@@ -19,7 +19,6 @@ input{
 }
 h1{
   color: yellowgreen;
-  width: 600px
 }
 h2{
   color: mediumslateblue;
@@ -72,4 +71,17 @@ transition-duration: 0.2s;
 
 .home-button{
   background-color: magenta;
+}
+
+.material-icons-outlined {
+
+  color: white;
+}
+
+.home-page-title{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  align-items: center;
+  justify-content: space-evenly;
 }

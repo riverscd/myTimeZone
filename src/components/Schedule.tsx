@@ -29,7 +29,11 @@ export function Schedule() {
 
     return (
         <div>
-            <h1>Your Current Schedule</h1>
+            <div className="home-page-title">
+            <span className="material-icons-outlined">wb_sunny </span>
+            <h1>Schedule</h1>
+            <span className="material-icons-outlined">dark_mode</span>
+            </div>
             <h2>Instructions</h2>
             <h3>- Today's Wake Up: Enter the time you woke up today</h3>
             <h3>- Simulated Wake Up: Enter the time you would like to feel like you woke up </h3>
