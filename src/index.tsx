@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Home } from './components/Home';
+import { Schedule } from './components/Schedule';
+import { Connect } from './components/Connect';
+import { Resources } from './components/Resources';
 
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/schedule" element={<Schedule />} />
+      <Route path="/connect" element={<Connect />} />
+      <Route path="/resources" element={<Resources />} />
+    </Routes>
+    
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
