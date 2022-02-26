@@ -24,9 +24,14 @@ export function Resources() {
             <p>Circadian Rhythm Disorders</p>
             <p>Shift Work</p>
             <p>Parents/Caregivers</p>
+            <h3>Templates</h3>
+            <p>Planner</p>
+            <p>Sleep Tracker</p>
 
             <Link to="/">
                 <button>Return Home</button></Link>
+
+            <h2>* build out w/links/studies/info *</h2>
 
         </div>
     )

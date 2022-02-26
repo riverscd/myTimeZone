@@ -9,6 +9,7 @@ import { Schedule } from './components/Schedule';
 import { Connect } from './components/Connect';
 import { Resources } from './components/Resources';
 import { About } from './components/About';
+import { DataVis } from './components/DataVis';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
       <Route path="/connect" element={<Connect />} />
       <Route path="/resources" element={<Resources />} />
       <Route path="/about" element={<About />} />
+      <Route path="/data-vis" element={<DataVis />} />
     </Routes>
     
     </BrowserRouter>

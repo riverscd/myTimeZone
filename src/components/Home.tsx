@@ -11,7 +11,7 @@ export function Home() {
             <span className="material-icons-outlined">dark_mode</span>
             </div>
 
-            <h2>Atypical schedule?</h2>
+            <h2>Confused by your sleep schedule?</h2>
             <h3>Make it make sense.</h3>
             <br />
             <Link to="/about">
@@ -25,7 +25,9 @@ export function Home() {
                 <p>Connect with others in your time zone</p>
             </Link>
 
-
+            <Link to="data-vis">
+                <p>Visualize your sleep schedule</p>
+            </Link>
 
             <Link to="/resources">
                 <p>Resources</p>
