@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 
-export function Resources(){
+export function Resources() {
 
-    return(
+    return (
         <div>
             <h1>Resources</h1>
-            <h3>Fix your schedule</h3>
+            <h2>Learn More About Sleep</h2>
+            <h3>"Fix" your schedule</h3>
             <p>Chronotherapy and Sleep Training</p>
             <p>Specialists to look into</p>
             <h3>Types of Sleepers</h3>
@@ -20,8 +21,8 @@ export function Resources(){
             <p>Shift Work</p>
             <p>Parents/Caregivers</p>
 
-            <Link to ="/"> 
-            <button>Return Home</button></Link>
+            <Link to="/">
+                <button>Return Home</button></Link>
 
         </div>
     )

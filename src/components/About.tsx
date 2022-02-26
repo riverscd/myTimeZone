@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-export function About(){
+export function About() {
 
-    return(
+    return (
         <div>
             <h1>About</h1>
-             <h2>Being on a non-standard sleep schedule can be disorienting...
+            <h2>Being on a non-standard sleep schedule can be disorienting...
             </h2>
             <p>
                 Something as seemingly simple as knowing when to eat lunch
@@ -22,15 +22,24 @@ export function About(){
                 amongst others who feel out of sync with the world around them.
             </p>
             <h2>Hope it helps!</h2>
-            <p>If something isn't working for you, or you have an idea for 
+            <p>If something isn't working for you, or you have an idea for
                 a feature that would help your unique situation - please reach out!
             </p>
             <p>(future contact link or whatever)</p>
+
+            <h2>Who might benefit from this tool?</h2>
             
-            <Link to = "/">
+            <p> Shift-workers, People with Sleep Disorders, Parents, Caregivers, Pilots, 
+                Flight Attendents, Frequent Travellers, College Students, Night Students,
+                People with Fluctuating Schedules, Doctors, Nurses, Service Industry Workers,
+                Streamers, Musicians, Gamers, Radio Hosts, Night Owls, Early Birds, and more.
+            </p>
+            
+
+            <Link to="/">
                 <button> Return Home</button>
 
-                </Link>
+            </Link>
         </div>
     )
 }
