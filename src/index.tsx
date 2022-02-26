@@ -8,6 +8,7 @@ import { Home } from './components/Home';
 import { Schedule } from './components/Schedule';
 import { Connect } from './components/Connect';
 import { Resources } from './components/Resources';
+import { About } from './components/About';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Route path="/schedule" element={<Schedule />} />
       <Route path="/connect" element={<Connect />} />
       <Route path="/resources" element={<Resources />} />
+      <Route path="/about" element={<About />} />
     </Routes>
     
     </BrowserRouter>

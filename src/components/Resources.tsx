@@ -21,7 +21,7 @@ export function Resources(){
             <p>Parents/Caregivers</p>
 
             <Link to ="/"> 
-            <h3>Return Home</h3></Link>
+            <h2>Return Home</h2></Link>
 
         </div>
     )

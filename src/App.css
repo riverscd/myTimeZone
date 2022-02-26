@@ -5,16 +5,26 @@ body{
 
 p{
   width: 600px;
-  margin-left: 30px
+  margin-left: 35px
 }
 
 .current-schedule-inputs{
   display: flex;
   flex-direction: column;
+  margin-left: 50px
   
 }
 input{
   width: 100px
+}
+h1{
+  color: yellowgreen
+}
+h2{
+  margin-left: 10px
+}
+h3{
+  margin-left: 25px
 }
 
 /* unvisited link */
@@ -35,4 +45,18 @@ a:hover {
 /* selected link */
 a:active {
   color: lightcoral;
+}
+
+button {
+  background-color:magenta; 
+margin: 25px 50px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100px
 }
