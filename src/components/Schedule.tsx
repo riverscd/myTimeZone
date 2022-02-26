@@ -31,21 +31,20 @@ export function Schedule() {
         <div>
             <h1>Your Current Schedule</h1>
             <h2>Instructions</h2>
-            <h3>Current Wake Up: Enter the time you woke up today</h3>
-            <h3>Simulated Wake Up: Enter the time you would like to feel like you woke up </h3>
-            <p>sample: set to 6am to simulate a 6am wakeup
-                <br />
-                (set default once figure out moment.js)
+            <h3>- Today's Wake Up: Enter the time you woke up today</h3>
+            <h3>- Simulated Wake Up: Enter the time you would like to feel like you woke up </h3>
+            <p>sample: set to 6am to simulate a 6am wakeup 
+                <br /> (set default options once figure out moment.js)
             </p>
 
             <h2>Enter Times</h2>
             <div className="current-schedule-inputs">
-                <label htmlFor="wake-up">Current Wake Up Time</label>
+                <label htmlFor="wake-up">Today's Wake Up</label>
                 <input id="wake-up" type="time" onChange={(e) => { setCurrentWakeTime(e.target.value) }} />
                 {/*<label htmlFor="bed-time">Current Bed Time</label>
                 <input id="bed-time" type="time" />
                 */}
-                <label htmlFor="simulate-wake-up" >Simulated Wake Up Time</label>
+                <label htmlFor="simulate-wake-up" >Simulated Wake Up</label>
                 <input id="simulate-wake-up" type="time" onChange={(e) => { setSimulatedWakeTime(e.target.value) }} />
 
                 <label htmlFor="current-time">Current Time</label>
@@ -57,20 +56,21 @@ export function Schedule() {
 
 
             <h3>Values for tracking while building</h3>
-            <p> wakeup: {currentWakeTime}</p>
+            <p> today's wakeup: {currentWakeTime}</p>
             <p> simulated wakeup: {simulatedWakeTime}</p>
             <p> time difference: {timeDifference}</p>
             <p>(eventually consolidate buttons)</p>
 
             <button onClick={(e) => { getRealFeel() }}>Translate</button>
+            <h2>Translation Results</h2>
             <p> current time: {currentTime}</p>
             <p>"real-feel" time: {realFeelTime}</p>
             <p>(use fix button for now if time is negative or 24+)</p>
             <button onClick={(e) => { adjustRealFeel() }}>Fix</button>
-        
-            <Link to="/"><h2>Return Home</h2></Link>
+        <br />
+            <Link to="/"><button className="home-button">Home</button></Link>
 <br />
-            <h3>* add ons to be figured out *</h3>
+            <h2>* add ons to be figured out *</h2>
             <p>display hours asleep/hours awake breakdown</p>
             <p>potential alert for less than 6 hours w/ suggested nap times/strategies</p>
             <p>display time zones most similar to one you're in w/ drop downs to show countries</p>

@@ -18,38 +18,46 @@ input{
   width: 100px
 }
 h1{
-  color: yellowgreen
+  color: yellowgreen;
+  width: 600px
 }
 h2{
-  margin-left: 10px
+  color: mediumslateblue;
+  margin-left: 10px;
+  width: 600px
 }
 h3{
-  margin-left: 25px
+  color: cyan;
+  margin-left: 25px;
+  width: 600px
 }
 
-/* unvisited link */
+a{
+  font-weight: bold;
+}
 a:link {
-  color: greenyellow;
+  color: magenta;
 }
 
 /* visited link */
 a:visited {
-  color: cyan;
+  color: magenta;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: yellowgreen;
 }
 
 /* selected link */
 a:active {
-  color: lightcoral;
+  color: cyan;
 }
 
 button {
   background-color:magenta; 
 margin: 25px 50px;
+transition-duration: 0.2s;
   border: none;
   color: white;
   padding: 10px 10px;
@@ -57,6 +65,11 @@ margin: 25px 50px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-weight:bold;
   border-radius: 12px;
   width: 100px
+}
+
+.home-button{
+  background-color: magenta;
 }

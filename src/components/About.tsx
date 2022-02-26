@@ -28,7 +28,7 @@ export function About(){
             <p>(future contact link or whatever)</p>
             
             <Link to = "/">
-                <h2>Return Home</h2>
+                <button> Return Home</button>
 
                 </Link>
         </div>
